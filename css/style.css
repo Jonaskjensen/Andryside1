@@ -48,7 +48,7 @@ nav ul li {
      box-shadow: 0 3px 10px #1c1f1d;
      z-index: 10;
      font-weight: lighter;
-     margin-top: 10px;
+     margin-top: 10px
   }
 
   #hideshow2 {
@@ -680,7 +680,7 @@ text-decoration: none;
 #contact {
   align-items:center;
   width: 70%;
-padding: 80px;
+
 margin: auto;
 margin-top: 60px;
 margin-bottom: 50px;
