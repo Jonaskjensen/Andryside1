@@ -434,6 +434,7 @@ footer ul {
 }
 
 #line {
+  display: none;
   height: 3px;
   margin: 20px 0 20px 0;
   background-color: #1989B2;
@@ -447,6 +448,7 @@ footer ul {
   padding: 30px 0 20px 0;
   letter-spacing: 2px;
   text-decoration: none;
+  font-size: 13px;
 }
 
 .fed {
@@ -492,6 +494,8 @@ h4 a {
 
 .afbud {
   font-size: 13px;
+  width: 90%;
+  margin: auto;
 }
 
 h5 {
@@ -506,6 +510,10 @@ h5 {
   max-width: 100%;
   display: flex;
   justify-content: center;
+}
+.slideshow h3{
+  width: 90%;
+  margin: auto;
 }
 .pic{
   width: 50%;
@@ -832,10 +840,14 @@ border-bottom: 3px solid #1989B2;
 
 #border1 div img, #border2 div img {
 width: 100px;
+padding-top: 55px;
 }
 
 #border1 div, #border2 div, #border2 div {
 width:40%;
+}
+#border2 div{
+  width: 45%;
 }
 
 #topleft, #topright, #bottomleft, #bottomright, #topright2, #bottomleft2, #bottomright2
@@ -1268,7 +1280,7 @@ align-content: center;
 }
 
 #bottomleft2 {
-  margin-left: 30px;
+  margin-left: 20px;
   margin-top: -3px;
   border-top: 3px solid #1989b2;
   border-left: 3px solid #1989B2;
@@ -1500,8 +1512,11 @@ font-size: 30px;
   #facebooklink {
     margin-top: 40px;
 margin-bottom: 50px;
+font-size: 23px;
   }
-
+.bluetext {
+  letter-spacing: -5px;
+}
   /* SoMe desktop */
 
   .social {
