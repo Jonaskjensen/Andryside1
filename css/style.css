@@ -41,7 +41,7 @@ nav ul li {
   position: relative;
     background:  linear-gradient(#1CC483, #44D9A0);
     margin: auto;
-    padding: 9px;
+    padding: 4px;
     width: 150px;
     border-radius: 4px;
     color: black;
@@ -667,7 +667,8 @@ text-align: left;
 #gdpr h1{
   color: #1989B2;
   font-size: 25px;
-  text-decoration:underline;
+  text-align: left;
+
 }
 #gdpr h2 {
 padding-top: 35px;
@@ -676,14 +677,7 @@ font-size: 19px;
 text-align: left;
   }
 
-  #gdpr a {
-color: #1989b2;
-text-decoration: none;
-  }
-#gdpr ul{
-  list-style-position: inside;
-  text-align: left;
-}
+
 /*Kontakt elementet*/
 #contact {
   align-items:center;
@@ -1036,9 +1030,6 @@ font-size: 20px;
 .uber2  {
   font-size: 25px;
 }
-  #biografi {
-    Order: -1;
-  }
 
   #line {
     display: none;
@@ -1203,6 +1194,7 @@ display: none;
   }
 
   #hideshow {
+    padding: 9px;
     margin-top: 30px;
     margin-left: 65px;
   }
@@ -1455,13 +1447,14 @@ font-size: 30px;
     justify-content: space-between;
     width: 80%;
     flex-wrap: wrap;
+    align-items:center;
   }
 
   #flemmingandry {
     width: 100%;
-
     object-fit: scale-down;
     padding-top: 50px;
+
   }
 
   #centerflemming {
@@ -1478,15 +1471,11 @@ font-size: 30px;
 
   #biografi {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     width: 40%;
   }
 
-  #hvorforneuro {
-    width: 100%;
-    order:5;
-    padding-top: 30px;
-  }
+
 
   #downabit {
     padding-top: 50px;
@@ -1498,8 +1487,9 @@ font-size: 30px;
     display: block;
   }
 
-  .uber2 {
-    display: none;
+  .uber2{
+margin-top: 30px;
+font-size: 25px;
   }
 
 
@@ -1619,10 +1609,11 @@ border-radius: 50%;
   width: 50%;
 }
 #gdpr h2{
-  text-align: center;
-  font-size: 27px;
+  text-align: left;
+  font-size: 22px;
 }
 #gdpr h1{
-  font-size: 35px;
+  font-size: 25px;
+  text-align: left;
 }
 }
